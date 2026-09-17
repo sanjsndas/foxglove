@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About · Foxglove Sunday Supper</title>
+  <meta name="description" content="About Foxglove Sunday Supper — an independent recipe journal by Maren Ellsworth. Slow cooking, seasonal eating, and the quiet art of feeding people well.">
+  <meta name="author" content="Maren Ellsworth">
+  <meta property="og:title" content="About · Foxglove Sunday Supper">
+  <meta property="og:description" content="An independent recipe journal for slow cooking, seasonal eating, and the quiet art of feeding people well.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://foxglovesundaysupper.com/about.html">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=1200&auto=format&fit=crop">
+  <link rel="canonical" href="https://foxglovesundaysupper.com/about.html">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "AboutPage",
+    "name": "About Foxglove Sunday Supper",
+    "url": "https://foxglovesundaysupper.com/about.html",
+    "description": "An independent recipe journal featuring seasonal, slow-cooked, and heritage dishes.",
+    "author": {
+      "@type": "Person",
+      "name": "Maren Ellsworth"
+    }
+  }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:opsz,wght@14..32,300..700&display=swap" rel="stylesheet">
+  <style>
+    /* ---------- RESET & BASE ---------- */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    html {
+      scroll-behavior: smooth;
+    }
+    body {
+      background-color: #fdfaf7;
+      color: #2e2a27;
+      font-family: 'Inter', sans-serif;
+      font-weight: 400;
+      line-height: 1.6;
+      font-size: 1rem;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      border-radius: 2px;
+    }
+    a {
+      color: #2e2a27;
+      text-decoration: none;
+      transition: color 0.2s ease, border-color 0.2s ease;
+    }
+    a:hover {
+      color: #9b6b4b;
+    }
+    h1, h2, h3, h4 {
+      font-family: 'DM Serif Display', serif;
+      font-weight: 400;
+      line-height: 1.2;
+      letter-spacing: -0.01em;
+      color: #1e1b18;
+    }
+    h1 {
+      font-size: clamp(2.4rem, 8vw, 4rem);
+      letter-spacing: -0.02em;
+    }
+    h2 {
+      font-size: clamp(1.8rem, 5vw, 2.6rem);
+      margin-bottom: 0.75rem;
+    }
+    h3 {
+      font-size: clamp(1.4rem, 4vw, 1.8rem);
+      margin-bottom: 0.5rem;
+    }
+    h4 {
+      font-size: 1.2rem;
+      font-weight: 400;
+      font-family: 'Inter', sans-serif;
+      font-weight: 600;
+      letter-spacing: -0.01em;
+      margin-bottom: 0.3rem;
+    }
+    p {
+      margin-bottom: 1.25rem;
+    }
+    p:last-child {
+      margin-bottom: 0;
+    }
+    ul, ol {
+      margin-bottom: 1.25rem;
+      padding-left: 1.5rem;
+    }
+    li {
+      margin-bottom: 0.4rem;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #e3dbd3;
+      margin: 2.5rem 0;
+    }
+    blockquote {
+      border-left: 4px solid #c9b6a8;
+      padding-left: 1.5rem;
+      font-style: italic;
+      color: #4f4944;
+      margin: 1.75rem 0;
+    }
+    /* ---------- UTILITY ---------- */
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 1.5rem;
+    }
+    .container-narrow {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 0 1.5rem;
+    }
+    .sr-only {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0,0,0,0);
+      border: 0;
+    }
+    .flex {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+    }
+    .grid-2 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2.5rem;
+    }
+    .grid-3 {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 2rem;
+    }
+    .grid-4 {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1.5rem;
+    }
+    @media (max-width: 900px) {
+      .grid-3, .grid-4, .grid-2 {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+    @media (max-width: 600px) {
+      .grid-3, .grid-4, .grid-2 {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    /* ---------- HEADER ---------- */
+    .site-header {
+      padding: 2rem 0 1rem;
+      border-bottom: 1px solid #e3dbd3;
+      background-color: #fdfaf7;
+    }
+    .header-inner {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      gap: 0.5rem;
+    }
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+    }
+    .logo-icon {
+      width: 40px;
+      height: 40px;
+      background: #9b6b4b;
+      border-radius: 50% 50% 50% 0;
+      transform: rotate(45deg);
+      flex-shrink: 0;
+      position: relative;
+    }
+    .logo-icon::after {
+      content: '';
+      position: absolute;
+      inset: 8px;
+      background: #fdfaf7;
+      border-radius: 50% 50% 50% 0;
+      transform: rotate(45deg);
+    }
+    .logo-text {
+      font-family: 'DM Serif Display', serif;
+      font-size: 2rem;
+      line-height: 1.1;
+      letter-spacing: -0.02em;
+      color: #1e1b18;
+    }
+    .logo-text span {
+      color: #9b6b4b;
+      font-style: italic;
+    }
+    .site-tagline {
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.15em;
+      color: #7b6e64;
+      font-weight: 500;
+    }
+    .main-nav {
+      margin-top: 1.25rem;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1.75rem;
+      font-size: 0.95rem;
+      font-weight: 500;
+      color: #4f4944;
+    }
+    .main-nav a {
+      padding-bottom: 0.2rem;
+      border-bottom: 2px solid transparent;
+    }
+    .main-nav a:hover, .main-nav a.active {
+      border-bottom-color: #9b6b4b;
+      color: #9b6b4b;
+    }
+    .header-search {
+      margin-top: 1rem;
+      width: 100%;
+      max-width: 380px;
+    }
+    .search-input {
+      width: 100%;
+      padding: 0.75rem 1.25rem;
+      border: 1px solid #d9cfc7;
+      border-radius: 40px;
+      background: #fffcf9;
+      font-family: 'Inter', sans-serif;
+      font-size: 0.9rem;
+      color: #2e2a27;
+      transition: border-color 0.2s, box-shadow 0.2s;
+    }
+    .search-input:focus {
+      outline: none;
+      border-color: #9b6b4b;
+      box-shadow: 0 0 0 3px rgba(155, 107, 75, 0.1);
+    }
+
+    /* ---------- MAIN LAYOUT ---------- */
+    .site-main {
+      padding: 2.5rem 0 4rem;
+    }
+    .content-area {
+      display: grid;
+      grid-template-columns: 1fr 320px;
+      gap: 3.5rem;
+    }
+    @media (max-width: 980px) {
+      .content-area {
+        grid-template-columns: 1fr;
+        gap: 2.5rem;
+      }
+    }
+
+    /* ---------- STATIC PAGE BLOCKS ---------- */
+    .page-block {
+      background: #fffcf9;
+      border: 1px solid #ede7e1;
+      padding: 2.5rem;
+      margin-bottom: 2rem;
+      border-radius: 2px;
+    }
+    .page-block h2 {
+      margin-bottom: 0.75rem;
+    }
+    .page-block h3 {
+      font-size: 1.3rem;
+      margin-top: 1.5rem;
+      margin-bottom: 0.3rem;
+    }
+    .page-block p, .page-block li {
+      font-size: 0.98rem;
+      color: #3f3a36;
+    }
+    .page-block .highlight-box {
+      background: #f5efe9;
+      border-left: 4px solid #9b6b4b;
+      padding: 1.5rem 1.75rem;
+      margin: 2rem 0;
+      border-radius: 0 2px 2px 0;
+    }
+    .page-block .highlight-box p {
+      margin-bottom: 0.5rem;
+      font-style: italic;
+      color: #4f4944;
+    }
+    .page-block .highlight-box p:last-child {
+      margin-bottom: 0;
+    }
+
+    /* ---------- AUTHOR CARD ---------- */
+    .author-card {
+      display: flex;
+      gap: 1.75rem;
+      align-items: flex-start;
+      margin: 2rem 0;
+    }
+    .author-card img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      object-fit: cover;
+      flex-shrink: 0;
+      filter: grayscale(15%);
+    }
+    .author-card .author-info p {
+      font-size: 0.95rem;
+      margin-bottom: 0.6rem;
+      color: #3f3a36;
+    }
+    .author-card .author-info .author-title {
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: #9b6b4b;
+      font-weight: 600;
+      margin-bottom: 0.2rem;
+    }
+    @media (max-width: 600px) {
+      .author-card {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+    }
+
+    /* ---------- SIDEBAR ---------- */
+    .sidebar {
+      display: flex;
+      flex-direction: column;
+      gap: 2.5rem;
+    }
+    .sidebar-widget {
+      background: #fffcf9;
+      border: 1px solid #ede7e1;
+      padding: 1.75rem 1.5rem;
+      border-radius: 2px;
+    }
+    .sidebar-widget h4 {
+      font-family: 'DM Serif Display', serif;
+      font-size: 1.3rem;
+      font-weight: 400;
+      margin-bottom: 1.25rem;
+      letter-spacing: -0.01em;
+      border-bottom: 1px solid #e3dbd3;
+      padding-bottom: 0.6rem;
+    }
+    .sidebar-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    .sidebar-list li {
+      margin-bottom: 1rem;
+      font-size: 0.95rem;
+      line-height: 1.5;
+    }
+    .sidebar-list li:last-child {
+      margin-bottom: 0;
+    }
+    .sidebar-list .side-meta {
+      display: block;
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: #9b8b7e;
+      margin-top: 0.2rem;
+    }
+    .author-mini {
+      display: flex;
+      gap: 1rem;
+      align-items: center;
+    }
+    .author-mini img {
+      width: 56px;
+      height: 56px;
+      border-radius: 50%;
+      object-fit: cover;
+      filter: grayscale(20%);
+    }
+    .author-mini p {
+      font-size: 0.9rem;
+      margin-bottom: 0.2rem;
+    }
+    .author-mini .author-name {
+      font-weight: 600;
+      color: #1e1b18;
+    }
+
+    /* ---------- NEWSLETTER ---------- */
+    .newsletter-section {
+      background: #f5efe9;
+      border-top: 1px solid #e3dbd3;
+      border-bottom: 1px solid #e3dbd3;
+      padding: 3.5rem 0;
+      margin: 2rem 0;
+    }
+    .newsletter-inner {
+      max-width: 600px;
+      margin: 0 auto;
+      text-align: center;
+    }
+    .newsletter-inner h3 {
+      font-size: 1.8rem;
+      margin-bottom: 0.5rem;
+    }
+    .newsletter-inner p {
+      color: #5e544b;
+      margin-bottom: 1.5rem;
+    }
+    .newsletter-form {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      justify-content: center;
+    }
+    .newsletter-form input {
+      flex: 1 1 240px;
+      padding: 0.75rem 1.25rem;
+      border: 1px solid #d9cfc7;
+      background: #fffcf9;
+      border-radius: 40px;
+      font-family: 'Inter', sans-serif;
+      font-size: 0.9rem;
+    }
+    .newsletter-form input:focus {
+      outline: none;
+      border-color: #9b6b4b;
+    }
+    .newsletter-form button {
+      padding: 0.75rem 2rem;
+      background: #9b6b4b;
+      color: #fff;
+      border: none;
+      border-radius: 40px;
+      font-family: 'Inter', sans-serif;
+      font-weight: 500;
+      font-size: 0.9rem;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+    .newsletter-form button:hover {
+      background: #7a523a;
+    }
+
+    /* ---------- FAQ ---------- */
+    .faq-section {
+      padding: 2.5rem 0;
+    }
+    .faq-item {
+      border-bottom: 1px solid #ede7e1;
+      padding: 1.25rem 0;
+    }
+    .faq-item:last-child {
+      border-bottom: none;
+    }
+    .faq-question {
+      font-weight: 600;
+      font-size: 1.05rem;
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: #1e1b18;
+    }
+    .faq-question::after {
+      content: '+';
+      font-size: 1.4rem;
+      font-weight: 300;
+      color: #9b6b4b;
+      transition: transform 0.2s;
+    }
+    .faq-item.open .faq-question::after {
+      content: '−';
+    }
+    .faq-answer {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.3s ease, padding 0.2s;
+      color: #4f4944;
+      font-size: 0.98rem;
+      line-height: 1.7;
+      padding-right: 1.5rem;
+    }
+    .faq-item.open .faq-answer {
+      max-height: 400px;
+      padding-top: 0.75rem;
+    }
+
+    /* ---------- FOOTER ---------- */
+    .site-footer {
+      background: #f5efe9;
+      border-top: 1px solid #e3dbd3;
+      padding: 3rem 0 1.5rem;
+      margin-top: 2rem;
+    }
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr 1fr;
+      gap: 2.5rem;
+    }
+    @media (max-width: 800px) {
+      .footer-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+    @media (max-width: 500px) {
+      .footer-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+    .footer-col h4 {
+      font-family: 'Inter', sans-serif;
+      font-weight: 600;
+      font-size: 0.9rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin-bottom: 1rem;
+      color: #4f4944;
+    }
+    .footer-col p {
+      font-size: 0.9rem;
+      color: #6b6058;
+      max-width: 300px;
+    }
+    .footer-col ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    .footer-col li {
+      margin-bottom: 0.5rem;
+      font-size: 0.9rem;
+    }
+    .footer-col a {
+      color: #6b6058;
+    }
+    .footer-col a:hover {
+      color: #9b6b4b;
+    }
+    .footer-bottom {
+      border-top: 1px solid #e3dbd3;
+      margin-top: 2.5rem;
+      padding-top: 1.5rem;
+      text-align: center;
+      font-size: 0.8rem;
+      color: #8b7e74;
+    }
+
+    /* ---------- UTILITY ---------- */
+    .hidden {
+      display: none !important;
+    }
+    .mt-3 {
+      margin-top: 1.5rem;
+    }
+    .mb-2 {
+      margin-bottom: 1rem;
+    }
+    .text-center {
+      text-align: center;
+    }
+    .text-muted {
+      color: #7b6e64;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+<!-- ========== HEADER ========== -->
+<header class="site-header">
+  <div class="container header-inner">
+    <div class="logo">
+      <div class="logo-icon" aria-hidden="true"></div>
+      <div class="logo-text">Foxglove <span>Sunday</span> Supper</div>
+    </div>
+    <div class="site-tagline">Slow recipes &amp; kitchen almanac</div>
+    <nav class="main-nav" aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="about.html" class="active">About</a>
+      <a href="contact.html">Contact</a>
+      <a href="terms.html">Terms Of Privacy</a>
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="cookies.html">Cookies Policy</a>
+      <a href="disclaimer.html">Disclaimer</a>
+      <a href="categories.html">Categories</a>
+    </nav>
+    <div class="header-search">
+      <input type="text" id="searchInput" class="search-input" placeholder="Search recipes, stories, ingredients…" aria-label="Search articles">
+    </div>
+  </div>
+</header>
+
+<!-- ========== MAIN ========== -->
+<main class="site-main" id="mainContent">
+  <div class="container content-area" id="contentArea">
+
+    <!-- LEFT / MAIN CONTENT COLUMN -->
+    <div class="main-column" id="mainColumn">
+
+      <!-- ABOUT PAGE CONTENT -->
+      <div class="page-block">
+        <h1 style="font-size: clamp(2.2rem, 6vw, 3rem); margin-bottom: 0.5rem;">About Foxglove Sunday Supper</h1>
+        <p style="font-size: 1.05rem; color: #5e544b; margin-bottom: 2rem;">An independent recipe journal for slow cooking, seasonal eating, and the quiet art of feeding people well.</p>
+
+        <p><strong>Foxglove Sunday Supper</strong> began as a personal recipe box — a place to keep the dishes that kept showing up on our table. Over time, it grew into a small journal for anyone who finds comfort in the rhythm of a slow kitchen.</p>
+
+        <p>We are independent and reader-supported. No sponsored content, no pop-ups, no life stories before the recipe. Just tested, seasonal cooking with a focus on heritage techniques, foraged ingredients, and the quiet joy of feeding people.</p>
+
+        <div class="highlight-box">
+          <p>“Good food is mostly about paying attention.”</p>
+          <p style="font-style: normal; font-weight: 500; color: #9b6b4b; font-size: 0.9rem;">— Maren Ellsworth</p>
+        </div>
+
+        <h2>Our approach</h2>
+        <p>We believe that cooking is less about perfection and more about presence. A braise that simmers for hours, a loaf of bread that rises overnight, a jar of preserved lemons left to cure on the counter — these are small acts of patience that reward us with deep flavor and a sense of calm.</p>
+        <p>Every recipe on this site has been cooked in a home kitchen, tested with real ingredients, and written for the way people actually cook: with what's in season, what's in the pantry, and what time allows.</p>
+
+        <h2>Meet the author</h2>
+        <div class="author-card">
+          <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=200&auto=format&fit=crop&q=80" alt="Maren Ellsworth, recipe writer and photographer">
+          <div class="author-info">
+            <p class="author-title">Writer, cook, forager</p>
+            <h3 style="margin-bottom: 0.3rem;">Maren Ellsworth</h3>
+            <p>Maren is a cook, writer, and forager based in the Pacific Northwest. She has spent the last decade working in farm kitchens, writing about food, and teaching sourdough workshops.</p>
+            <p>Her work is rooted in the belief that the best meals are often the simplest ones — a pot of beans, a roasted chicken, a cake made with olive oil and rosemary.</p>
+          </div>
+        </div>
+
+        <h2>Editorial independence</h2>
+        <p>We do not accept payment for reviews or product placement. Any books or tools mentioned are purchased by us or borrowed from the library. When we recommend something, it's because we use it.</p>
+        <p>Some links on this site may be affiliate links, which means we may earn a small commission if you make a purchase — at no extra cost to you. We only link to products we genuinely recommend. This helps keep the site free and independent.</p>
+
+        <h2>What you'll find here</h2>
+        <ul>
+          <li><strong>Seasonal recipes</strong> — dishes that follow the rhythm of the year, from spring nettles to late-summer tomatoes.</li>
+          <li><strong>Slow cooking</strong> — braises, stews, and roasts that ask for time and give back deeply.</li>
+          <li><strong>Baking</strong> — sourdough, simple cakes, and breads that fill the house with warmth.</li>
+          <li><strong>Preserving</strong> — fermenting, pickling, and putting up the harvest.</li>
+          <li><strong>Kitchen wisdom</strong> — practical guides, techniques, and notes from the stove.</li>
+        </ul>
+
+        <h2>Get in touch</h2>
+        <p>We love hearing from readers. Whether you have a question about a recipe, a correction, or just want to say hello, you can reach us at <a href="mailto:hello@foxglovesundaysupper.com" style="color: #9b6b4b;">hello@foxglovesundaysupper.com</a>.</p>
+        <p>You can also subscribe to <strong>Foxglove Notes</strong>, our weekly newsletter, for a seasonal recipe and a kitchen story each Sunday. No noise, just nourishment.</p>
+      </div>
+
+    </div>
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar" id="sidebar">
+      <div class="sidebar-widget">
+        <h4>About the author</h4>
+        <div class="author-mini">
+          <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=120&auto=format&fit=crop&q=80" alt="Maren Ellsworth, recipe writer and photographer">
+          <div>
+            <p class="author-name">Maren Ellsworth</p>
+            <p class="text-muted" style="font-size:0.8rem; margin-bottom:0;">Cook, writer, and forager based in the Pacific Northwest. I believe good food is mostly about paying attention.</p>
+          </div>
+        </div>
+      </div>
+      <div class="sidebar-widget">
+        <h4>Popular this month</h4>
+        <ul class="sidebar-list">
+          <li><a href="index.html">The Quiet Rise: Sourdough for Absolute Beginners</a><span class="side-meta">Baking · 12 min</span></li>
+          <li><a href="index.html">The Sunday Pot: A Case for Overnight Braising</a><span class="side-meta">Slow Cooking · 14 min</span></li>
+          <li><a href="index.html">The Ripe & The Restless: A Tomato Manifesto</a><span class="side-meta">Seasonal · 9 min</span></li>
+          <li><a href="index.html">Putting Up: A Beginner's Guide to Fermenting</a><span class="side-meta">Preserving · 11 min</span></li>
+        </ul>
+      </div>
+      <div class="sidebar-widget">
+        <h4>Recommended</h4>
+        <img class="sidebar-img" src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=400&auto=format&fit=crop&q=80" alt="A rustic table with a bowl of braised short ribs and fresh herbs" style="width:100%; aspect-ratio:1/1; object-fit:cover; border-radius:2px; margin-bottom:0.75rem; background:#e3dbd3;">
+        <p style="font-size:0.9rem; margin-bottom:0.5rem;"><strong>Sunday Supper Club</strong> — a weekly newsletter with one slow recipe and one story. No noise, just nourishment.</p>
+        <a href="#" class="read-more" style="font-weight:500; font-size:0.85rem; color:#9b6b4b;">Join the list →</a>
+      </div>
+    </aside>
+  </div>
+
+  <!-- NEWSLETTER SECTION -->
+  <section class="newsletter-section">
+    <div class="container newsletter-inner">
+      <h3>Foxglove Notes</h3>
+      <p>One email each Sunday. A seasonal recipe, a kitchen note, and something to read while the pot bubbles.</p>
+      <form class="newsletter-form" id="newsletterForm" onsubmit="event.preventDefault(); alert('Thank you — you\'re on the list. (This is a demo.)');">
+        <input type="email" placeholder="Your email address" aria-label="Email address" required>
+        <button type="submit">Subscribe</button>
+      </form>
+      <p class="text-muted" style="margin-top:1rem; font-size:0.8rem;">No spam. Unsubscribe anytime.</p>
+    </div>
+  </section>
+
+  <!-- FAQ SECTION -->
+  <section class="faq-section container-narrow" id="faqSection">
+    <h2 style="text-align:center; margin-bottom:2rem;">Questions from the kitchen</h2>
+    <div class="faq-item">
+      <div class="faq-question">Do I need special equipment for slow cooking?</div>
+      <div class="faq-answer">A heavy-bottomed pot (enameled cast iron or stainless steel) and a tight-fitting lid are really all you need. A Dutch oven is ideal, but any sturdy pot will do. A slow cooker works too, though browning on the stovetop first makes a big difference.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-question">How do I know if my sourdough starter is ready?</div>
+      <div class="faq-answer">It should double in size within 4–6 hours of feeding, smell pleasantly yeasty (not acetone-like), and be full of bubbles. If it's sluggish, keep feeding it consistently at room temperature for a few more days.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-question">Can I reduce salt in preserved lemons?</div>
+      <div class="faq-answer">Salt is the preservative, so reducing it significantly shortens shelf life. For a low-salt version, use the refrigerator method and consume within 3–4 weeks. The saltiness also mellows as they cure.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-question">What's the best way to store fresh herbs?</div>
+      <div class="faq-answer">Treat them like flowers: trim the stems, place in a jar with an inch of water, cover loosely with a plastic bag, and refrigerate. Hardy herbs like rosemary and thyme can be wrapped in a damp towel.</div>
+    </div>
+  </section>
+</main>
+
+<!-- ========== FOOTER ========== -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <div class="logo" style="margin-bottom:0.75rem;">
+          <div class="logo-icon" style="width:28px; height:28px;" aria-hidden="true"></div>
+          <div class="logo-text" style="font-size:1.5rem;">Foxglove <span>Sunday</span> Supper</div>
+        </div>
+        <p>An independent recipe journal for slow cooking, seasonal eating, and the quiet art of feeding people well.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="categories.html">Seasonal</a></li>
+          <li><a href="categories.html">Slow Cooking</a></li>
+          <li><a href="categories.html">Baking</a></li>
+          <li><a href="categories.html">Preserving</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Information</h4>
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="privacy.html">Privacy</a></li>
+          <li><a href="terms.html">Terms</a></li>
+          <li><a href="cookies.html">Cookie Policy</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Follow</h4>
+        <ul>
+          <li><a href="#" aria-label="Instagram">Instagram</a></li>
+          <li><a href="#" aria-label="Pinterest">Pinterest</a></li>
+          <li><a href="#" aria-label="Newsletter">Newsletter</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      &copy; 2025 Foxglove Sunday Supper. All rights reserved. Made with care in a small kitchen.
+    </div>
+  </div>
+</footer>
+
+<script>
+  // FAQ toggle
+  document.querySelectorAll('.faq-question').forEach(q => {
+    q.addEventListener('click', () => {
+      q.parentElement.classList.toggle('open');
+    });
+  });
+
+  // Simple search filter (works on the page's content)
+  const searchInput = document.getElementById('searchInput');
+  searchInput.addEventListener('input', (e) => {
+    const query = e.target.value.toLowerCase().trim();
+    const blocks = document.querySelectorAll('.page-block');
+    if (query === '') {
+      blocks.forEach(b => b.style.display = '');
+      return;
+    }
+    blocks.forEach(block => {
+      const text = block.innerText.toLowerCase();
+      if (text.includes(query)) {
+        block.style.display = '';
+      } else {
+        block.style.display = 'none';
+      }
+    });
+  });
+</script>
+</body>
+</html>
